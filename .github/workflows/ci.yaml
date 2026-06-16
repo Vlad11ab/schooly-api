@@ -55,9 +55,10 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            vlad11ab/shopy-api:latest
-            vlad11ab/shopy-api:${{ steps.tag.outputs.value }}
+            vlad11ab/schooly-api:latest
+            vlad11ab/schooly-api:${{ steps.tag.outputs.value }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+        
 
 ##todo: job-sonarcloud pana joia viitoare
